@@ -23,8 +23,22 @@ if(T.hashnav.initialized&&T.params.hashnav)if(T.params.replaceState&&window.hist
 return this.length>0?e?this[0].offsetWidth+parseFloat(this.css("margin-right"))+parseFloat(this.css("margin-left")):this[0].offsetWidth:null})),window.Swiper=a}(),"undefined"!=typeof module?module.exports=window.Swiper:"function"==typeof define&&define.amd&&define([],function(){"use strict";return window.Swiper});
 //# sourceMappingURL=maps/swiper.min.js.map
 
-     var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        autoplay: 5000
-    });
+var swiper = new Swiper('.swiper-container', {
+  pagination: '.swiper-pagination',
+  paginationClickable: true,
+  autoplay: 5000
+});
+
+
+const link = document.querySelectorAll('.technical__link');
+const value = document.querySelector('.tech-form__input-text');
+
+const linkArray = [...link];
+
+linkArray.forEach((item, idx) => {
+  item.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    let dataAttr = item.dataset.auto;
+    value.value = dataAttr.toUpperCase();
+  })
+});

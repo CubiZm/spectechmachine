@@ -252,8 +252,205 @@
       <div class="order">
        <div class="container">
          <div class="row">
-           <div class="col-xs-12">
+           <div class="col-xs-3"></div>
+           <div class="col-xs-6">
+            <div class="switch-field">
+              <input type="radio" id="yes" name="yes" value="yes" checked/>
+              <label for="yes">Юридическим лицам</label>
+              <input type="radio" id="no" name="no" value="no" />
+              <label for="no">Частным заказчикам</label>
+            </div>
+            <p class="order__text">обращаем Ваше внимание, что, заполнив форму и оформив заказ, вы ничем не обязаны системе, вы сможете изменить или отменить заказ в любой момент</p>
+           </div>
+           <div class="col-xs-3"></div>
+           <div class="technical">
+            <div class="col-xs-6">
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Асенизатор"><img src="../img/tech/asenizator.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Автокран"><img src="../img/tech/avtokran.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Автовышка"><img src="../img/tech/avtovyshka.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Бетононасос"><img src="../img/tech/betononasos.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Бульдозер"><img src="../img/tech/buldozer.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Дизелегенератор"><img src="../img/tech/dizelgenerator.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Гусеничный экскаватор"><img src="../img/tech/ekskavator-gusenichnyi.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Колёсный экскаватор"><img src="../img/tech/ekskavator-kolesnyi.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Экскаватор погрузчик"><img src="../img/tech/ekskavator-pogruzchik.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Гусеничный кран"><img src="../img/tech/gusyanichnyi-kran.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Копресор"><img src="../img/tech/kopresor.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Манипулятор"><img src="../img/tech/manipulyator.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Миксер"><img src="../img/tech/mikser.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Минипогрузчик"><img src="../img/tech/minipogruzchik.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Погрузчик"><img src="../img/tech/pogruzchik.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Самосвал"><img src="../img/tech/samosval.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Вилочный погрузчик"><img src="../img/tech/vilochnyi-pogruzchik.png" alt="" class="technical__img"></a>
+              </div>
+              <div class="technical__auto">
+                <a class="technical__link" href="" data-auto="Другое"><img src="../img/tech/other.png" alt="" class="technical__img"></a>
+              </div>
+            </div>
+            <div class="col-xs-5">
+              <form action="url" method="post" class="tech-form">
+                <label for="name"></label>
+                <input class="tech-form__input tech-form__input-text" type="text" id="name" name="name" value="ЭКСКАВАТОР-ПОГРУЗЧИК">
 
+                <label for="address"></label>
+                <input class="tech-form__input tech-form__input-address" type="text" id="address" name="address" placeholder="Адрес места проведения работ">
+
+              <div class="tech-form__wrap">
+                <label for="data"></label>
+                <input class="tech-form__input tech-form__input-data" type="text" id="data" name="data" placeholder="Выберите дату проведения работ">
+
+                <label for="address"></label>
+                <input class="tech-form__input tech-form__input-time" type="text" id="time" name="time" placeholder="Рабочих часов">
+              </div>
+
+              <textarea name="comments" rows="8" cols="94" class="tech-form__input tech-form__textarea" placeholder="Комментарий к заказу:"></textarea>
+
+              <p class="tech-form__text">Укажите данные контактного лица</p>
+
+              <label for="name2"></label>
+              <input class="tech-form__input tech-form__input-name" type="name2" id="name2" name="name2" placeholder="ФИО">
+
+              <label for="tel"></label>
+              <input class="tech-form__input tech-form__input-tel" type="tel" id="tel" name="tel" placeholder="Тел">
+
+              <div class="pay-field">
+                <div class="tech-form__pay">Выберите способ оплаты</div>
+                <input type="radio" id="pay_left" name="pay_2" value="yes" checked/>
+                <label for="pay_left">НАЛИЧНЫМИ</label>
+                <input type="radio" id="pay_right" name="pay_2" value="no" />
+                <label for="pay_right">БАНКОВСКОЙ КАРТОЙ</label>
+              </div>
+
+              <div class="tech-form__wrap tech-form__wrap--btn">
+                <p class="tech-form__desc">Специалист свяжется с вами в течении 20 секунд для уточнения деталей и подтверждения заявки.</p>
+                <button class="tech-form__btn">ОТПРАВИТЬ ЗАЯВКУ</button>
+              </div>
+              </form>
+            </div>
+          </div>
+         </div>
+         <div class="row">
+           <div class="col-xs-3"></div>
+           <div class="col-xs-6">
+            <div class="switch-field switch-field--cat">
+              <input type="radio" id="category" name="cat" value="category" checked/>
+              <label for="category">Выберите категрию</label>
+              <input type="radio" id="region" name="region" value="region" />
+              <label for="region">Выберите регион</label>
+            </div>
+            <p class="order__text order__text--margin">Внимание! Данные заказы приходят автоматически из он-лайн системы обращайте особое внимание на детали заявки.</p>
+           </div>
+           <div class="col-xs-3"></div>
+           <div class="col-xs-12">
+            <table class="price-table">
+              <tbody>
+              <tr>
+                  <td class="price-table__index">453452</td>
+                  <td class="price-table__auto">Экскаватор-погрузчик</td>
+                  <td class="price-table__time"><span class="price-table__red">3-6</span> ч.</td>
+                  <td class="price-table__location">Кострома,<br>Центральный район</td>
+                  <td class="price-table__work">Планировка участка, выкорчевать пеньки и засыпать канавы у дома песком.</td>
+                  <td class="price-table__sale">Взять заказ</td>
+              </tr>
+              <tr>
+                  <td class="price-table__index"></td>
+                  <td class="price-table__auto"></td>
+                  <td class="price-table__time"></td>
+                  <td class="price-table__location"></td>
+                  <td class="price-table__work"></td>
+                  <td class="price-table__sale"></td>
+              </tr>
+              <tr>
+                  <td class="price-table__index"></td>
+                  <td class="price-table__auto"></td>
+                  <td class="price-table__time"></td>
+                  <td class="price-table__location"></td>
+                  <td class="price-table__work"></td>
+                  <td class="price-table__sale"></td>
+              </tr>
+              <tr>
+                  <td class="price-table__index"></td>
+                  <td class="price-table__auto"></td>
+                  <td class="price-table__time"></td>
+                  <td class="price-table__location"></td>
+                  <td class="price-table__work"></td>
+                  <td class="price-table__sale"></td>
+              </tr>
+              <tr>
+                  <td class="price-table__index"></td>
+                  <td class="price-table__auto"></td>
+                  <td class="price-table__time"></td>
+                  <td class="price-table__location"></td>
+                  <td class="price-table__work"></td>
+                  <td class="price-table__sale"></td>
+              </tr>
+              <tr>
+                  <td class="price-table__index"></td>
+                  <td class="price-table__auto"></td>
+                  <td class="price-table__time"></td>
+                  <td class="price-table__location"></td>
+                  <td class="price-table__work"></td>
+                  <td class="price-table__sale"></td>
+              </tr>
+              <tr>
+                  <td class="price-table__index"></td>
+                  <td class="price-table__auto"></td>
+                  <td class="price-table__time"></td>
+                  <td class="price-table__location"></td>
+                  <td class="price-table__work"></td>
+                  <td class="price-table__sale"></td>
+              </tr>
+              <tr>
+                  <td class="price-table__index"></td>
+                  <td class="price-table__auto"></td>
+                  <td class="price-table__time"></td>
+                  <td class="price-table__location"></td>
+                  <td class="price-table__work"></td>
+                  <td class="price-table__sale"></td>
+              </tr>
+              <tr>
+                  <td class="price-table__index"></td>
+                  <td class="price-table__auto"></td>
+                  <td class="price-table__time"></td>
+                  <td class="price-table__location"></td>
+                  <td class="price-table__work"></td>
+                  <td class="price-table__sale"></td>
+              </tr>
+            </tbody>
+            </table>
            </div>
          </div>
        </div>
@@ -263,11 +460,35 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-8">
-
+            <div class="registration__wrap">
+              <img src="../img/rag-cran.png" alt="" class="registration__img">
+              <span class="registration__text">БОЛЬШЕ РАБОТЫ<br> для вашей техники</span>
+            </div>
           </div>
           <div class="col-xs-4">
             <form action="url" method="post" class="form-reg">
+              <h2 class="form-reg__title">БЫСТРАЯ РЕГИСТРАЦИЯ</h2>
+              <hr class="form-reg__hr">
+              <p class="form-reg__text">владельцев техники</p>
 
+              <p class="form-reg__description">введите номер вашего мобильного телефона и придумайте пароль</p>
+
+              <div class="form-reg__wrap">
+                <label for="phone" class="form-reg__label"></label>
+                <input type="tel" class="form-reg__input" name="phone" id="phone" placeholder="Phone">
+
+                <label for="email" class="form-reg__label"></label>
+                <input type="email" class="form-reg__input" name="email" id="email" placeholder="Email">
+              </div>
+
+              <a href="" class="form-reg__link">регистрация</a>
+
+              <div class="form-reg__wrap">
+                <input type="checkbox" class="success" id="yes" name="yes">
+                <label for="yes" class="form-reg__yes">
+                  <p>Согласен с условиями размещения данных в системе<br>Согласие на обработку персональнх данных<br>Cогласие на оповещение ситемы</p>
+                </label>
+              </div>
             </form>
           </div>
         </div>
@@ -314,17 +535,24 @@
             <p class="newsletter__text">Подпишитесь на нашу рассылку и моментально получайте информацию о новинках, акциях, распродажах и изменениях в нашем магазине.</p>
 
             <form action="url" method="post" class="newsletter-form">
+
               <label for="name" class="newsletter-form__label"></label>
               <input type="name" class="newsletter-form__input" placeholder="Ваше имя" id="name">
 
               <label for="email" class="newsletter-form__label"></label>
               <input type="email" class="newsletter-form__input" placeholder="Email" id="email">
 
-              <label for="man">Мужской</label>
-              <input type="radio" checked name="sex" id="man"/>
+              <!-- <div class="newsletter-form__wrap"> -->
+                <label class="newsletter-form__radio-label" for="man">
+                  <span class="newsletter-form__text-label">Мужской</span>
+                </label>
+                <input class="newsletter-form__radio" type="radio" name="sex" id="man" checked>
 
-              <label for="female">Женский</label>
-              <input type="radio" name="sex" id="female"/>
+                <label class="newsletter-form__radio-label" for="female">
+                  <span class="newsletter-form__text-label">Женский</span>
+                </label>
+                <input class="newsletter-form__radio" type="radio" name="sex" id="female">
+              <!-- </div> -->
 
               <button type="submit" class="newsletter-form__btn">Подписаться</button>
             </form>
@@ -333,7 +561,16 @@
         <div class="col-xs-4 col-xs-4--custom">
           <div class="newsletter__wrap">
             <h3 class="newsletter__title">Нужна помощь в выборе товара?</h3>
+
+            <div class="newsletter__wrap-tel">
+              <a href="tel:88003502506" class="newsletter__phone">8-(800)-350-250-6</a>
+                <p>Звонок по России бесплатный</p>
+              <a href="tel:+74942450450" class="newsletter__phone">+7 (4942) 450-450</a>
+            </div>
+
             <p class="newsletter__text">Рубрика “Вопросы и ответы” поможет вам найти ответы на все основные вопросы, которые могут возникнуть при взаимодействии с ресурсом.</p>
+
+            <a href="#" class="newsletter__link-help">Рубрика вопрос ответ</a>
           </div>
         </div>
         <div class="col-xs-4 col-xs-4--custom">
@@ -354,9 +591,35 @@
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-xs-9">
+          <div class="col-xs-9 col-xs-9--custom">
+            <div class="footer__wrap">
+              <hr class="footer__hr">
+              <img src="https://placehold.it/136x136" alt="qr код" class="footer__qr">
+              <p class="footer__licence">2011 - 2017  Все права защищены ООО МРСК «Комплект Строй» ООО "СТРОЙСПЕЦТЕХНИКА" Все права на картинки и тексты принадлежат их авторам. Полное или частичное копироваие контента сайта без согласия администрации сайта и размещения ссылки на ресурс является нарушением законодательства РФ. Все спорные ситуации, связанные с нарушением законодательства в отношении интеллектуальной собственности и авторского права, будут незамедлительно переданы в правоохранительные органы и суд с целью восстановления законных прав Информация на данной странице не является публичной офертой. (Исключением является информация с отметкой того, что она является публичной офертой).</p>
+            </div>
           </div>
-          <div class="col-xs-3"></div>
+          <div class="col-xs-3 col-xs-3--custom">
+            <div class="footer__wrap footer__wrap--other">
+              <div class="social">
+                <a href="" class="social__link"></a>
+                <a href="" class="social__link"></a>
+                <a href="" class="social__link"></a>
+                <a href="" class="social__link"></a>
+                <a href="" class="social__link"></a>
+                <a href="" class="social__link"></a>
+              </div>
+              <p class="footer__address">
+                Российская Федерация<br>
+                156000, г. Кострома,<br>
+                ул. Новосельская, 34, офис 5
+              </p>
+              <p class="footer__phone">
+                <span class="footer__tel">тел/факс</span><br>
+                <span class="footer__code">(4942)</span>
+                <span class="footer__num">450-450</span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
