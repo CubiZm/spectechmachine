@@ -1044,13 +1044,17 @@ body {
     font-weight: 100; }
 
 .slides .slide {
-  margin: 400px auto 30px auto; }
+  display: block;
+  margin: 400px auto 30px auto;
+  text-align: left; }
 
 .slides h1 {
   margin: 0;
+  width: 740px;
+  color: #000;
   font-size: 40px;
-  text-transform: uppercase;
-  color: #000; }
+  font-weight: 400;
+  text-transform: uppercase; }
 
 .slides p {
   margin: 0;
@@ -1067,20 +1071,60 @@ body {
     position: relative;
     margin-top: 5px; }
   .slides .first-slide span {
-    top: -30px;
+    top: -20px;
     left: 60%;
     position: absolute;
     font-size: 20px; }
   .slides .first-slide b {
+    position: relative;
+    top: -7px;
+    left: 5px;
     font-size: 45px;
     color: #ff0000;
-    font-weight: bold; }
+    font-weight: 900;
+    text-transform: uppercase; }
 
 .slides .second-slide {
-  background: url("../img/promo-bckg-2.png") no-repeat; }
+  background: url("../img/promo-bckg-2.png") no-repeat;
+  background-position: 650px -17px;
+  background-size: 466px 117px; }
+  .slides .second-slide h1 {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .slides .second-slide p {
+    margin-left: -88px;
+    color: #000;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .slides .second-slide span {
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: uppercase; }
 
 .slides .third-slide {
   background: url("../img/promo-bckg-3.png") no-repeat; }
+  .slides .third-slide h1 {
+    display: inline-block;
+    margin-left: 75px;
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .slides .third-slide p {
+    display: inline-block;
+    margin-left: -240px;
+    color: #000000;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .slides .third-slide span {
+    font-size: 44px;
+    text-transform: uppercase; }
 
 /**
  * Swiper 3.4.2
